@@ -1,0 +1,306 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.formBox p {
+  margin: 0;
+  display: flex;
+  position: relative;
+  bottom: 50px;
+  font-family: "Great Vibes", cursive;
+  font-size: 24px;
+}
+.formBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  border-radius: 100px;
+  height: 80vh;
+  position: relative;
+  width: 90vw;
+  top: 40px;
+}
+
+.firstname {
+  text-align: center;
+  padding: 1rem;
+  /* width: 50vw; */
+  margin: 0 10px;
+  position: relative;
+  /* top: 10px; */
+  left: 10px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 4px;
+  color: white;
+  background-color: black;
+}
+.firstnameInvalid {
+  text-align: center;
+  padding: 1rem;
+  /* width: 50vw; */
+  margin: 0 10px;
+  position: relative;
+  border-color: rgb(231, 26, 26);
+  /* border-width: 12px; */
+  /* top: 10px; */
+  left: 10px;
+  border-radius: 8px;
+  /* border-color: black; */
+  /* border-width: 4px; */
+  color: white;
+  background-color: rgb(238, 221, 221);
+}
+
+.lastname {
+  text-align: center;
+  padding: 1rem;
+  /* width: 50vw; */
+  margin: 0 10px;
+  position: relative;
+  /* top: 160px; */
+  left: 10px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 4px;
+  color: white;
+  background-color: black;
+}
+
+.lastnameInvalid {
+  text-align: center;
+  padding: 1rem;
+  /* width: 50vw; */
+  margin: 0 10px;
+  position: relative;
+  /* top: 160px; */
+  left: 10px;
+  border-radius: 8px;
+  border-color: rgb(231, 26, 26);
+  /* border-width: 4px; */
+  color: white;
+  background-color: rgb(238, 221, 221);
+}
+
+.emailBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+  left: 20px;
+}
+
+.email {
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding: 0.3rem;
+  width: 50%;
+  margin-top: 10px;
+  position: relative;
+  /* top: 160px; */
+  border-radius: 8px;
+  border-color: black;
+  border-width: 4px;
+  color: white;
+  background-color: black;
+}
+
+.emailInvalid {
+  text-align: center;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  padding: 0.3rem;
+  width: 50%;
+  margin-top: 10px;
+  position: relative;
+  /* top: 160px; */
+  border-radius: 8px;
+  border-color: rgb(231, 26, 26);
+  /* border-width: 4px; */
+  color: white;
+  background-color: rgb(238, 221, 221);
+}
+
+.adressBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+}
+
+.adress {
+  text-align: center;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 1.5rem;
+  margin-top: 10px;
+  width: 50%;
+  position: relative;
+  /* top: 160px; */
+  left: 20px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 4px;
+  color: white;
+  background-color: black;
+}
+
+.adressInvalid {
+  text-align: center;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 1.5rem;
+  margin-top: 10px;
+  width: 50%;
+  position: relative;
+  /* top: 160px; */
+  left: 20px;
+  border-radius: 8px;
+  border-color: rgb(231, 26, 26);
+  /* border-width: 4px; */
+  color: white;
+  background-color: rgb(238, 221, 221);
+}
+
+.messageBox {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  text-align: center;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 2rem;
+  margin-top: 10px;
+  width: 60%;
+  position: relative;
+  /* top: 160px; */
+  left: 20px;
+  border-radius: 8px;
+  border-color: black;
+  border-width: 4px;
+  color: white;
+  background-color: black;
+}
+
+.messageInvalid {
+  text-align: center;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 2rem;
+  margin-top: 10px;
+  width: 60%;
+  position: relative;
+  /* top: 160px; */
+  left: 20px;
+  border-radius: 8px;
+  border-color: rgb(231, 26, 26);
+  /* border-width: 4px; */
+  color: white;
+  background-color: rgb(238, 221, 221);
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  top: 40px;
+  width: 90%;
+}
+
+.formButton {
+  border-radius: 24px;
+  padding: 0.4rem;
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+  position: relative;
+  /* right: 60px; */
+}
+
+.formDenyButton {
+  border-radius: 24px;
+  padding: 0.4rem;
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.formButton:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.errorPara {
+  position: relative;
+  top: 20px;
+  color: rgb(231, 26, 26);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 80vw; */
+  position: relative;
+  left: 20px;
+}
+
+.errorFirstName {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  right: 35px;
+  padding: 0.2rem;
+  width: 100vw;
+  color: rgb(231, 26, 26);
+}
+
+.errorLastName {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  bottom: 50px;
+  right: 190px;
+  padding: 0.2rem;
+  /* left: 15px; */
+  color: rgb(231, 26, 26);
+}
+
+.nameBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

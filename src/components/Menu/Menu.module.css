@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans+Condensed:wght@300&family=Yellowtail&display=swap");
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(163, 171, 195, 1) 56%
+  );
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(165, 161, 161);
+  position: relative;
+  z-index: 1;
+}
+
+.headerTitle {
+  font-family: "Great Vibes", cursive;
+  margin: 0;
+  padding: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: white;
+}
+
+.button {
+  /* border:14px; */
+  border-width: 2px;
+  border-radius: 8px;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.2rem;
+  font-weight: 700;
+  position: relative;
+  right: 10px;
+  text-decoration: none;
+  padding: 0.4;
+  background-color: black;
+  color: white;
+  z-index: 2;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.menuCover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  padding: 3rem;
+  position: relative;
+  top: 10px;
+  /* background-size: cover; */
+}
+
+.menuImg {
+  width: 60vw;
+  height: 50vh;
+  box-shadow: 5px 10px 18px #3d3c3c;
+  border-radius: 10px;
+}
+
+.menuTitle {
+  font-family: "Yellowtail", cursive;
+  color: rgb(109, 99, 99);
+}
+
+.menusContainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 30px;
+
+  /* height: 70vh; */
+}
+
+.menusContainer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* margin: 8px 0; */
+  position: relative;
+  bottom: 10px;
+
+  /* height: 70vh; */
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(56, 53, 53);
+  color: white;
+  margin-left: 8px;
+  border-radius: 8px;
+  width: 33%;
+  height: 55vh;
+}
+
+.menusTitle {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.1rem;
+  margin-left: 8px;
+  color: rgb(206, 187, 187);
+}
+
+.menusPara {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #ccc;
+  text-align: center;
+  /* margin: 0px; */
+}
+
+.menuPrice {
+  font-size: 0.9rem;
+  padding: 0.2rem;
+}
+
+.menuCenterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(233, 223, 223);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color: black;
+  margin-left: 8px;
+  border-radius: 8px;
+  width: 33%;
+  height: 55vh;
+}
+
+.menusCenterPara {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: black;
+  text-align: center;
+  margin: 0px;
+}
+
+.menusCenterTitle {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1.1rem;
+  margin-left: 8px;
+  color: black;
+}
+
+.menusImg {
+  width: 70%;
+  /* padding: 1rem; */
+  height: 40vh;
+  border-radius: 12px;
+  box-shadow: 4px 3px 10px 2px #e0d1d1;
+  margin-top: 16px;
+  /* border: none; */
+}
+
+.menu2Img {
+  width: 80%;
+  /* padding: 0.8rem; */
+  height: 55vh;
+  position: relative;
+  top: 10px;
+  border-radius: 24px;
+  margin: 8px 0;
+  /* margin-bottom: 8px; */
+  box-shadow: 5px 10px 18px #3d3c3c;
+}
+
+.menu5Img {
+  width: 80%;
+  /* padding: 0.8rem; */
+  height: 40vh;
+  /* position: relative;
+  top:10px; */
+  border-radius: 24px;
+  margin: 8px 0;
+
+  box-shadow: 5px 10px 18px #3d3c3c;
+}
+
+.bottomMenuBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuButton {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 0.4rem;
+  margin-right: 6px;
+  background-color: rgb(56, 53, 53);
+  border-color: rgb(112, 100, 100);
+  color: white;
+  border-radius: 8px;
+  margin-left: 12px;
+  /* position: relative;
+  left: 20px; */
+}
+
+.menuButton:hover {
+  color: rgb(82, 75, 75);
+  background-color: white;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  position: relative;
+  top: 6px;
+  padding: 0.8rem;
+}
+
+.footer p {
+  margin: 6px;
+}
+
+.footer p:hover {
+  color: #ccc;
+  cursor: pointer;
+}

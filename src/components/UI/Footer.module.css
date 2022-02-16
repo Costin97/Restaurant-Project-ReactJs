@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  position: relative;
+  /* top: 30px; */
+  padding: 0.8rem;
+  height: 8vh;
+  margin-top: 52px;
+}
+
+.footer p {
+  margin: 6px;
+}
+
+.footer p:hover {
+  color: #ccc;
+  cursor: pointer;
+}
+.link {
+  margin: 4px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}

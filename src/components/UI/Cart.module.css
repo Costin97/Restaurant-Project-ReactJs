@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Shadows+Into+Light&family=Smooch&display=swap");
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 100px;
+  width: 100vw;
+  z-index: 2;
+}
+
+.cartBox {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  background-color: rgb(238, 176, 122);
+  border-radius: 24px;
+  padding: 1.5rem;
+  width: 80%;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  bottom: 15px;
+  font-family: "Smooch", cursive;
+  font-size: 1.8rem;
+}
+
+.emptyBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.emptyPara {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3rem;
+  /* text-align: center; */
+  margin: 0;
+}
+
+.menus {
+  display: flex;
+  /* justify-self: flex-start;
+  align-self: flex-start; */
+  justify-content: space-between;
+  font-family: "Shadows Into Light", cursive;
+  margin: 0;
+  padding: 0.2rem;
+  font-size: 1.2rem;
+  position: relative;
+  bottom: 10px;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.menuButton {
+  border-radius: 20px;
+  background-color: rgb(167, 156, 156);
+  border-color: rgb(185, 179, 179);
+  position: relative;
+  left: 15px;
+  padding: 0.2rem;
+  margin-top: 12px;
+  margin-left: 8px;
+}
+
+.errorBox {
+  position: relative;
+  bottom: 100px;
+  background-color: black;
+  color: rgb(214, 50, 50);
+  border-radius: 20px;
+  padding: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.successBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 100px;
+  background-color: rgb(238, 176, 122);
+  color: rgb(56, 43, 43);
+  border-radius: 20px;
+  padding: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.successBox p {
+  margin: 0.4rem;
+}
+
+.successButton {
+  display: flex;
+  align-self: flex-end;
+  vertical-align: center;
+  position: relative;
+  margin: 0;
+  border-radius: 8px;
+  padding: 0.2rem;
+  background-color: rgb(110, 170, 110);
+  border-color: #ccc;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.successButton:hover {
+  background-color: #ccc;
+  color: rgb(51, 92, 51);
+  cursor: pointer;
+}
+
+.sendButton {
+  border-radius: 20px;
+  background-color: rgb(110, 170, 110);
+  border-color: #ccc;
+  color: white;
+  position: relative;
+  left: 15px;
+  padding: 0.2rem;
+  margin-top: 12px;
+  margin-left: 8px;
+}
+
+.dontSendButton {
+  border-radius: 20px;
+  background-color: #ccc;
+  color: white;
+  position: relative;
+  left: 15px;
+  padding: 0.2rem;
+  margin-top: 12px;
+  cursor: not-allowed;
+}
+
+.sendButton:hover {
+  cursor: pointer;
+  color: rgb(110, 170, 110);
+  background-color: white;
+}
+
+.specialAddButton1 {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
+  /* background-color: blue; */
+  position: relative;
+  left: 70px;
+  background-color: rgb(110, 170, 110);
+  color: white;
+  border-radius: 20px;
+  top: 5px;
+}
+
+.specialAddButton1:hover {
+  background-color: white;
+  color: rgb(110, 170, 110);
+  cursor: pointer;
+}
+.removeButton:hover {
+  background-color: black;
+  color: rgb(187, 19, 19);
+  cursor: pointer;
+}
+
+.removeSpecialButton1 {
+  /* display: flex;
+  align-self: center; */
+  position: relative;
+  left: 18px;
+  background-color: rgb(187, 19, 19);
+  border-radius: 20px;
+  top: 5px;
+}
+
+.removeSpecialButton1:hover {
+  background-color: black;
+  color: rgb(187, 19, 19);
+  cursor: pointer;
+}
+
+.specialAddButton2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: flex-end;
+  /* align-self: flex-end; */
+  position: relative;
+  left: 65px;
+  background-color: rgb(110, 170, 110);
+  color: white;
+  border-radius: 20px;
+  top: 5px;
+}
+
+.specialAddButton2:hover {
+  background-color: white;
+  color: rgb(110, 170, 110);
+  cursor: pointer;
+}
+
+.removeSpecialButton2 {
+  /* display: flex;
+  align-self: center; */
+  position: relative;
+  left: 18px;
+  background-color: rgb(187, 19, 19);
+  border-radius: 20px;
+  top: 5px;
+}
+
+.removeSpecialButton2:hover {
+  background-color: black;
+  color: rgb(187, 19, 19);
+  cursor: pointer;
+}
+
+.specialAddButton6 {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
+  /* background-color: blue; */
+  position: relative;
+  left: 66.5px;
+  background-color: rgb(110, 170, 110);
+  color: white;
+  border-radius: 20px;
+  top: 5px;
+}
+
+.specialAddButton6:hover {
+  background-color: white;
+  color: rgb(110, 170, 110);
+  cursor: pointer;
+}
+
+.removeSpecialButton6 {
+  /* display: flex;
+  align-self: center; */
+  position: relative;
+  left: 18px;
+  background-color: rgb(187, 19, 19);
+  border-radius: 20px;
+  top: 5px;
+}
+
+.removeSpecialButton6:hover {
+  background-color: black;
+  color: rgb(187, 19, 19);
+  cursor: pointer;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
+  position: relative;
+  top: 5px;
+  left: 66px;
+  background-color: rgb(110, 170, 110);
+  color: white;
+  border-radius: 20px;
+
+  /* background-color: blue; */
+  /* width: 20vw; */
+}
+
+.addButton:hover {
+  background-color: white;
+  color: rgb(110, 170, 110);
+  cursor: pointer;
+}
+
+.removeButton {
+  /* display: flex;
+  align-self: center; */
+  position: relative;
+  left: 18px;
+  background-color: rgb(187, 19, 19);
+  border-radius: 20px;
+  top: 5px;
+}
+
+.menuButton:hover {
+  background-color: black;
+  color: #ccc;
+  cursor: pointer;
+  border-color: rgb(43, 39, 39);
+}
+
+.number {
+  margin: 0;
+}
+
+.nr {
+  margin: 0;
+  position: relative;
+  left: 45px;
+  font-weight: bold;
+  top: 4px;
+
+  /* bottom: 4px; */
+}
+
+.nr1 {
+  margin: 0;
+  position: relative;
+  left: 46.5px;
+  font-weight: bold;
+  top: 4px;
+  /* bottom: 4px; */
+}
+
+.nr6 {
+  margin: 0;
+  position: relative;
+  left: 45px;
+  font-weight: bold;
+  top: 4px;
+  /* bottom: 4px; */
+}
+
+.priceBox {
+  background-color: rgb(53, 48, 48);
+  border-radius: 12px;
+  color: white;
+  padding: 0.6rem;
+  width: 18%;
+  font-family: "Smooch", cursive;
+  margin: 0;
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
